@@ -1,6 +1,3 @@
-Repository related to https://github.com/szabgab/modiin-co-learning/
-
-## Task
 
 * Fork and clone this repository
 * Create a virtualenv using `virtualenv venv; source venv/bin/activate`
@@ -23,3 +20,8 @@ tests/test_lev.py .
 * Once Travis works in your own GitHub/Travis-CI accounts, send a pull-request.
 * We will comment on the PR, but won't merge it.
 
+  295  sudo apt install python3-venv
+  296  pyvenv venv
+  297  source venv/bin/activate
+  298  pip install -r requirements.txt 
+  299  pytest 
