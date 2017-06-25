@@ -1,5 +1,5 @@
-#import sys
-#sys.argv.append('.')
+import sys
+sys.path.append('.')
 import lev
 
 
